@@ -9,10 +9,12 @@ $ tree -L 4
 ``` bash
 ├── build
 ├── devel
+├── README.md
 └── src
     ├── CMakeLists.txt -> /opt/ros/kinetic/share/catkin/cmake/toplevel.cmake
-    ├── README.md
     └── ta_pkg
+        ├── bagfiles
+        │   └── mybag.bag
         ├── CMakeLists.txt
         ├── package.xml
         ├── scripts
@@ -20,6 +22,7 @@ $ tree -L 4
         │   └── add_two_ints_server.py
         └── srv
             └── AddTwoInts.srv
+
 ```
 
 The package I created is called `ta_pkg`, yours should be `beginner_tutorials` as specificed in Assignment 1.
